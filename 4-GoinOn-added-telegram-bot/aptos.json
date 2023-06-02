@@ -1,0 +1,569 @@
+{
+  "txn": {
+    "type": "user_transaction",
+    "version": "150340634",
+    "hash": "0xdb29672503e4a1ad265459dc76e2d9e0ca7ed8f0252bb53d5b9b2c4de729e779",
+    "state_change_hash": "0x280cba2cd761cdb05046498e256a25004c41150764d8cda9e37f1303575b5e01",
+    "event_root_hash": "0x898ff1f511e1bc44ab44fbb8ed7606b4806ceed40b7668242f528031c621e7e1",
+    "state_checkpoint_hash": null,
+    "gas_used": "36",
+    "success": true,
+    "vm_status": "Executed successfully",
+    "accumulator_root_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "changes": [
+      {
+        "type": "write_resource",
+        "address": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+        "state_key_hash": "0xf9baa1492c9b31c5144735012b18e909965f30bf7ec312935b4049d383aa5fad",
+        "data": {
+          "type": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::switchboard::State",
+          "data": {
+            "aggregator_authorities": {
+              "handle": "0x503125a62c4ffe9b86a9c96ac17b02f05ee9a9a530f6a4f77908f13e396a0b90"
+            },
+            "aggregator_init_events": {
+              "counter": "33",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "6"
+                }
+              }
+            },
+            "aggregator_open_round_events": {
+              "counter": "817068",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "5"
+                }
+              }
+            },
+            "aggregator_update_events": {
+              "counter": "662195",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "4"
+                }
+              }
+            },
+            "permissions": {
+              "handle": "0x7261c3d5745f3d4e10ea056ce89a1c0cb080908b1c5b19f86b28752e7504952d"
+            }
+          }
+        }
+      },
+      {
+        "type": "write_resource",
+        "address": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+        "state_key_hash": "0x327efd291dbb571da9f062b0dde2fced96c960f7fc71ae48b81e48b0a0321cdc",
+        "data": {
+          "type": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::switchboard::SwitchboardEvents",
+          "data": {
+            "aggregator_crank_eviction_events": {
+              "counter": "0",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "8"
+                }
+              }
+            },
+            "aggregator_save_result_events": {
+              "counter": "657244",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "7"
+                }
+              }
+            },
+            "crank_lease_insufficient_funds_events": {
+              "counter": "10",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "17"
+                }
+              }
+            },
+            "crank_pop_expected_failure_events": {
+              "counter": "0",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "18"
+                }
+              }
+            },
+            "feed_permission_revoked_events": {
+              "counter": "0",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "15"
+                }
+              }
+            },
+            "garbage_collection_failure_events": {
+              "counter": "0",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "16"
+                }
+              }
+            },
+            "lease_fund_events": {
+              "counter": "40",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "14"
+                }
+              }
+            },
+            "lease_withdraw_events": {
+              "counter": "3",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "13"
+                }
+              }
+            },
+            "oracle_booted_events": {
+              "counter": "0",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "9"
+                }
+              }
+            },
+            "oracle_reward_events": {
+              "counter": "657237",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "10"
+                }
+              }
+            },
+            "oracle_slash_events": {
+              "counter": "0",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "12"
+                }
+              }
+            },
+            "oracle_withdraw_events": {
+              "counter": "0",
+              "guid": {
+                "id": {
+                  "addr": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8",
+                  "creation_num": "11"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "write_resource",
+        "address": "0x11fbd91e4a718066891f37958f0b68d10e720f2edf8d57854fb20c299a119a8c",
+        "state_key_hash": "0xaaf08192c7a2fef0df42a02d3888e37c7a3f40129bf75785a9560690ea7d5c30",
+        "data": {
+          "type": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::oracle_queue::OracleQueueData",
+          "data": {
+            "curr_idx": "0",
+            "data": [
+              "0xd7d2baef5dc653c2c84715b3d4ac7463446387c7d21c41e306bf4ec201454abb"
+            ],
+            "gc_idx": "0"
+          }
+        }
+      },
+      {
+        "type": "write_resource",
+        "address": "0x94a63284ace90c56f6326de5d62e867d915370a7d059bf974b39aefc699b8baa",
+        "state_key_hash": "0x773b0601fd99c0dc362fd1ff1cbdddb540cb8b0417fa73e668e8bcfdc0e3dd93",
+        "data": {
+          "type": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::aggregator::AggregatorRound<0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::aggregator::CurrentRound>",
+          "data": {
+            "current_payout": [],
+            "errors_fulfilled": [
+              false
+            ],
+            "id": "69595",
+            "is_closed": false,
+            "max_response": {
+              "dec": 9,
+              "neg": false,
+              "value": "1000600000"
+            },
+            "medians": [
+              {
+                "vec": []
+              }
+            ],
+            "min_response": {
+              "dec": 9,
+              "neg": false,
+              "value": "1000300000"
+            },
+            "num_error": "0",
+            "num_success": "0",
+            "oracle_keys": [
+              "0xd7d2baef5dc653c2c84715b3d4ac7463446387c7d21c41e306bf4ec201454abb"
+            ],
+            "result": {
+              "dec": 9,
+              "neg": false,
+              "value": "1000450000"
+            },
+            "round_confirmed_timestamp": "0",
+            "round_open_block_height": "54047266",
+            "round_open_timestamp": "1685436138",
+            "std_deviation": {
+              "dec": 9,
+              "neg": false,
+              "value": "0"
+            }
+          }
+        }
+      },
+      {
+        "type": "write_resource",
+        "address": "0x94a63284ace90c56f6326de5d62e867d915370a7d059bf974b39aefc699b8baa",
+        "state_key_hash": "0xf81f35d42e849a1eb141827cea99aa9004fdd86cf19eb2e5156a29ed0058c042",
+        "data": {
+          "type": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::aggregator::AggregatorRound<0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::aggregator::LatestConfirmedRound>",
+          "data": {
+            "current_payout": [],
+            "errors_fulfilled": [
+              false
+            ],
+            "id": "69594",
+            "is_closed": true,
+            "max_response": {
+              "dec": 9,
+              "neg": false,
+              "value": "1000600000"
+            },
+            "medians": [
+              {
+                "vec": [
+                  {
+                    "dec": 9,
+                    "neg": false,
+                    "value": "1000450000"
+                  }
+                ]
+              }
+            ],
+            "min_response": {
+              "dec": 9,
+              "neg": false,
+              "value": "1000300000"
+            },
+            "num_error": "0",
+            "num_success": "1",
+            "oracle_keys": [
+              "0xd7d2baef5dc653c2c84715b3d4ac7463446387c7d21c41e306bf4ec201454abb"
+            ],
+            "result": {
+              "dec": 9,
+              "neg": false,
+              "value": "1000450000"
+            },
+            "round_confirmed_timestamp": "1685436121",
+            "round_open_block_height": "54047266",
+            "round_open_timestamp": "1685436117",
+            "std_deviation": {
+              "dec": 9,
+              "neg": false,
+              "value": "0"
+            }
+          }
+        }
+      },
+      {
+        "type": "write_resource",
+        "address": "0x94a63284ace90c56f6326de5d62e867d915370a7d059bf974b39aefc699b8baa",
+        "state_key_hash": "0xe2607b366d0b8efdb40995fad2e7e8adf811ba2185cded7aaf4411878775591c",
+        "data": {
+          "type": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::aggregator::AggregatorConfig",
+          "data": {
+            "batch_size": "1",
+            "consecutive_failure_count": "0",
+            "crank_addr": "0xbc9576fedda51d33e8129b5f122ef4707c2079dfb11cd836e86adcb168cbd473",
+            "crank_disabled": false,
+            "crank_row_count": "1",
+            "expiration": "0",
+            "force_report_period": "0",
+            "history_limit": "0",
+            "min_job_results": "2",
+            "min_oracle_results": "1",
+            "min_update_delay_seconds": "5",
+            "next_allowed_update_time": "1685436144",
+            "queue_addr": "0x11fbd91e4a718066891f37958f0b68d10e720f2edf8d57854fb20c299a119a8c",
+            "start_after": "0",
+            "variance_threshold": {
+              "dec": 9,
+              "neg": false,
+              "value": "0"
+            }
+          }
+        }
+      },
+      {
+        "type": "write_resource",
+        "address": "0xbc9576fedda51d33e8129b5f122ef4707c2079dfb11cd836e86adcb168cbd473",
+        "state_key_hash": "0x0ce1ebfae70a8dd0a8f7eb99d15bfcfd251d2e0df6bab0e336275cc67bf04833",
+        "data": {
+          "type": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::crank::Crank",
+          "data": {
+            "_ebuf": "0x",
+            "created_at": "1666141376",
+            "features": [],
+            "heap": [
+              {
+                "aggregator_addr": "0x678140f136a4c7458c14696a5c5c2df29cbc7bff8f8919b2d2371962b5ad5bdd",
+                "timestamp": "1670486458"
+              },
+              {
+                "aggregator_addr": "0x91d583827d5700b189c7059017afa71497a7d5ac508bb116ce59334331bdbeaa",
+                "timestamp": "1670487971"
+              },
+              {
+                "aggregator_addr": "0xd9eeb20cf2e9c814d1a1e3acd1daa27e88d7ccb2f8fb7c36d66fe5651049c475",
+                "timestamp": "1670486522"
+              },
+              {
+                "aggregator_addr": "0xf0a2d756bf803741a1e08ae5d57e73dab8106c96564da5dd88658c685279ce77",
+                "timestamp": "1670602184"
+              },
+              {
+                "aggregator_addr": "0x820ffcf5e935e9851210f1587de73b61657f8777f67e301c71642a0d2b7f8e58",
+                "timestamp": "1670639676"
+              },
+              {
+                "aggregator_addr": "0xa4d3f34dac7ec04d2497682fea8dbe5e4b2c5d9d50c62470525f1c9afae2a347",
+                "timestamp": "1670486573"
+              },
+              {
+                "aggregator_addr": "0x4cdbdc33d904a50ef67e30360d229e975c9ba604ae0e66b1f1768e0dfb625a58",
+                "timestamp": "1670602217"
+              },
+              {
+                "aggregator_addr": "0x7b5f536d201280a10d33d8c2202a1892b1dd8247aecfef7762ea8e7565eac7b6",
+                "timestamp": "1685436122"
+              },
+              {
+                "aggregator_addr": "0xdc7f6fbc4efe2995e1e37b9f73d113085e4ee3597d47210a2933ad3bf5b78774",
+                "timestamp": "1685436117"
+              },
+              {
+                "aggregator_addr": "0x5af65afeeab555f8b742ce7fc2c539a5cb6a6fb2a6e6d96bc1b075fb28067808",
+                "timestamp": "1685436113"
+              },
+              {
+                "aggregator_addr": "0x91b4f34e0042ff9aba4045bc0b795ffa07778eb2ea9d3f4ffc772c347826e7a5",
+                "timestamp": "1670639532"
+              },
+              {
+                "aggregator_addr": "0x1566c20a222ccf9e05e327251ccb172d3b6eea9df35297ea438f2309398e92cd",
+                "timestamp": "1670639478"
+              },
+              {
+                "aggregator_addr": "0xb8f20223af69dcbc33d29e8555e46d031915fc38cb1a4fff5d5167a1e08e8367",
+                "timestamp": "1685436129"
+              },
+              {
+                "aggregator_addr": "0xfcd024fedf2851017fe7af75efd18935c0d6f28d9e8ac3b646b050b0922a8222",
+                "timestamp": "1670639585"
+              },
+              {
+                "aggregator_addr": "0xdc1045b4d9fd1f4221fc2f91b2090d88483ba9745f29cf2d96574611204659a5",
+                "timestamp": "1685436136"
+              },
+              {
+                "aggregator_addr": "0x94a63284ace90c56f6326de5d62e867d915370a7d059bf974b39aefc699b8baa",
+                "timestamp": "1685436144"
+              }
+            ],
+            "jitter_modifier": "4",
+            "queue_addr": "0x11fbd91e4a718066891f37958f0b68d10e720f2edf8d57854fb20c299a119a8c"
+          }
+        }
+      },
+      {
+        "type": "write_resource",
+        "address": "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137",
+        "state_key_hash": "0xf2d3d6f79f1b57103a0fab73b85d06302f6066dd1526d37e8321d2018abf367b",
+        "data": {
+          "type": "0x1::coin::CoinStore<0x1::aptos_coin::AptosCoin>",
+          "data": {
+            "coin": {
+              "value": "687028575"
+            },
+            "deposit_events": {
+              "counter": "792494",
+              "guid": {
+                "id": {
+                  "addr": "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137",
+                  "creation_num": "2"
+                }
+              }
+            },
+            "frozen": false,
+            "withdraw_events": {
+              "counter": "167",
+              "guid": {
+                "id": {
+                  "addr": "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137",
+                  "creation_num": "3"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "write_resource",
+        "address": "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137",
+        "state_key_hash": "0xc196ba1d9749fcae56502a4770966c78a9b09b1dab299e9fd98f61de1f9a0c40",
+        "data": {
+          "type": "0x1::account::Account",
+          "data": {
+            "authentication_key": "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137",
+            "coin_register_events": {
+              "counter": "1",
+              "guid": {
+                "id": {
+                  "addr": "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137",
+                  "creation_num": "0"
+                }
+              }
+            },
+            "guid_creation_num": "4",
+            "key_rotation_events": {
+              "counter": "0",
+              "guid": {
+                "id": {
+                  "addr": "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137",
+                  "creation_num": "1"
+                }
+              }
+            },
+            "rotation_capability_offer": {
+              "for": {
+                "vec": []
+              }
+            },
+            "sequence_number": "838104",
+            "signer_capability_offer": {
+              "for": {
+                "vec": []
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "write_table_item",
+        "state_key_hash": "0x6e4b28d40f98a106a65163530924c0dcb40c1349d3aa915d108b4d6cfc1ddb19",
+        "handle": "0x1b854694ae746cdbd8d44186ca4929b2b337df21d1c74633be19b2710552fdca",
+        "key": "0x0619dc29a0aac8fa146714058e8dd6d2d0f3bdf5f6331907bf91f3acd81e6935",
+        "value": "0x4e8c3ee9df6970010000000000000000"
+      },
+      {
+        "type": "write_table_item",
+        "state_key_hash": "0xd33f6ca8e6e6e40f8cf31184f5a3b36ea8bc7acbc2d95cba0a07409def9c8798",
+        "handle": "0x56efc89bbf2806f6ebe1c7cece92c00ea2d775eef46f6e1798116bf0cbb0519a",
+        "key": "0x11fbd91e4a718066891f37958f0b68d10e720f2edf8d57854fb20c299a119a8c",
+        "value": "0x7a524f6300000000f92bc956b9e25f38a2e4829b58f03ca9724233985cdda3f818bc3e62d6ed7d9c00000000000000000000"
+      },
+      {
+        "type": "write_table_item",
+        "state_key_hash": "0xa6bcc9e503e8724eae25c1a3aa67a6a3b503036e709fa0b579fc82b2ad7884f7",
+        "handle": "0x68ac375b2dc59fcd433e07f34858bff5767b61e22b1a5a9098d2fba5d7a0da45",
+        "key": "0x11fbd91e4a718066891f37958f0b68d10e720f2edf8d57854fb20c299a119a8c",
+        "value": "0xf4715a6400000000ca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef813700000000000000000000"
+      }
+    ],
+    "sender": "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137",
+    "sequence_number": "838103",
+    "max_gas_amount": "200000",
+    "gas_unit_price": "150",
+    "expiration_timestamp_secs": "1685436157",
+    "payload": {
+      "type": "entry_function_payload",
+      "function": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::crank_pop_action::run",
+      "type_arguments": [
+        "0x1::aptos_coin::AptosCoin"
+      ],
+      "arguments": [
+        "0xbc9576fedda51d33e8129b5f122ef4707c2079dfb11cd836e86adcb168cbd473",
+        "14"
+      ]
+    },
+    "signature": {
+      "type": "ed25519_signature",
+      "public_key": "0x4350d74f7ad7d92de20aa3adbf91edaecd08cdfce75fe3e5add4d3e79bcfff8c",
+      "signature": "0x45a3f607d01a77076e9116b1b3621b78e7a15ae5f8ec199d0e2b9d59b0d3aabcea1cf360a5641fbf3e8af48b3c1e689ea174cd0911d9eff2344772727adf6f0a"
+    },
+    "events": [
+      {
+        "guid": {
+          "creation_number": "10",
+          "account_address": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8"
+        },
+        "sequence_number": "657236",
+        "type": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::events::OracleRewardEvent",
+        "data": {
+          "aggregator_address": "0x94a63284ace90c56f6326de5d62e867d915370a7d059bf974b39aefc699b8baa",
+          "amount": "0",
+          "oracle_address": "0xd7d2baef5dc653c2c84715b3d4ac7463446387c7d21c41e306bf4ec201454abb",
+          "timestamp": "1685436138"
+        }
+      },
+      {
+        "guid": {
+          "creation_number": "2",
+          "account_address": "0xca62eccbbdb22b5de18165d0bdf2d7127569b91498f0a7f6944028793cef8137"
+        },
+        "sequence_number": "792493",
+        "type": "0x1::coin::DepositEvent",
+        "data": {
+          "amount": "0"
+        }
+      },
+      {
+        "guid": {
+          "creation_number": "5",
+          "account_address": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8"
+        },
+        "sequence_number": "817067",
+        "type": "0x7d7e436f0b2aafde60774efb26ccc432cf881b677aca7faaf2a01879bd19fb8::events::AggregatorOpenRoundEvent",
+        "data": {
+          "aggregator_address": "0x94a63284ace90c56f6326de5d62e867d915370a7d059bf974b39aefc699b8baa",
+          "job_keys": [
+            "0x5cca6e4db539d3444522615fe5ad6cb5210b3de76deb2322f0f1d30c9d457b67",
+            "0x87c15b97c68247410ef0a63a6e26633615ed3c9667055e000705b7d060028b0",
+            "0x1d148a662d923f248b4a575f2488175d00a34f71bb1ff40490293a3660360341"
+          ],
+          "oracle_keys": [
+            "0xd7d2baef5dc653c2c84715b3d4ac7463446387c7d21c41e306bf4ec201454abb"
+          ]
+        }
+      }
+    ],
+    "timestamp": "1685436138110635"
+  },
+  "block_num": 58239380
+}
