@@ -16,8 +16,6 @@ const (
 	accessToken = "SAAEPLBNRA56YZTG4XN674JQXJ6L5KKVNUB7XUW5YOFJXKV2PYQ2FJJ4ZU"
 )
 
-var bot *tgbotapi.BotAPI
-
 // RepublishData receives a message on a given subject and republishes it to another subject.
 // It takes a context, the service instance, and the data (message) as input arguments.
 func PrintData(ctx context.Context, service *pubsub.NatsService, data []byte) error {
