@@ -10,9 +10,9 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/SyntropyNet/pubsub-go/pubsub"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
 	"github.com/nats-io/nats.go"
-	"gitlab.com/syntropynet/amberdm/sdk/pubsub-go/pubsub"
 )
 
 const (

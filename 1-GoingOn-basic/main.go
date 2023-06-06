@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/SyntropyNet/pubsub-go/pubsub"
 	"github.com/nats-io/nats.go"
-	"gitlab.com/syntropynet/amberdm/sdk/pubsub-go/pubsub"
 )
 
 const (
