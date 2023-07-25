@@ -6,11 +6,11 @@ GoingOn is a Go application that leverages the power of NATS messaging system an
 ## Workshop Steps
 
 To follow along with the workshop and see the code changes made in each step, you can refer to the following subrepositories:
-1. [Step 0: Empty Boilerplate from Go SDK](https://gitlab.com/syntropynet/devrel/external/hackathons/aptos-hackathon-2023/0-GoingOn-empty-repo)
-2. [Step 1: Basic NATS Connecrtion Established](https://gitlab.com/syntropynet/devrel/external/hackathons/aptos-hackathon-2023/1-GoingOn-basic)
-3. [Step 2: Added Stream](https://gitlab.com/syntropynet/devrel/external/hackathons/aptos-hackathon-2023/2-GoingOn-added-aptos-stream/)
-4. [Step 3: Added Filtering](https://gitlab.com/syntropynet/devrel/external/hackathons/aptos-hackathon-2023/3-GoingOn-added-data-filtering)
-5. [Step 4: Added Telegram Bot](https://gitlab.com/syntropynet/devrel/external/hackathons/aptos-hackathon-2023/4-GoinOn-added-telegram-bot)
+1. [Step 0: Empty Boilerplate from Go SDK](https://github.com/SyntropyNet/aptos-hackathon-2023/tree/main/0-GoingOn-empty-repo)
+2. [Step 1: Basic NATS Connecrtion Established](https://github.com/SyntropyNet/aptos-hackathon-2023/tree/main/1-GoingOn-basic)
+3. [Step 2: Added Stream](https://github.com/SyntropyNet/aptos-hackathon-2023/tree/main/2-GoingOn-added-aptos-stream/)
+4. [Step 3: Added Filtering](https://github.com/SyntropyNet/aptos-hackathon-2023/tree/main/3-GoingOn-added-data-filtering)
+5. [Step 4: Added Telegram Bot](https://github.com/SyntropyNet/aptos-hackathon-2023/tree/main/4-GoinOn-added-telegram-bot)
 
 ## Features
 
